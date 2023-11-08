@@ -1,10 +1,10 @@
-#Panagram : if a string contains all alphabets then it is a panagram.
+#Panagram: if a string contains all alphabets then it is a panagram.
 
-#include <iostream> // Include the iostream library for input and output operations
+#include <iostream> 
 
-using namespace std; // Use the standard namespace for convenience
+using namespace std; 
 
-bool approach(string str) // Define a function named approach that takes a string as input
+bool approach(string str) 
 {
   for (char c = 'a'; c <= 'z'; c++) // Iterate over all lowercase letters
   {
@@ -25,10 +25,10 @@ bool approach(string str) // Define a function named approach that takes a strin
   return true; // Return true if all letters are present
 }
 
-int main() // Define the main function
+int main()
 {
-  string str = "abcdefghijklmnopqrstuvwxyz"; // Declare a string variable and initialize it with the alphabet
-  cout << approach(str); // Call the approach1 function and print the result
-  return 0; // Return 0 to indicate successful execution
+  string str = "abcdefghijklmnopqrstuvwxyz"; 
+  cout << approach(str); 
+  return 0;
 }
 
